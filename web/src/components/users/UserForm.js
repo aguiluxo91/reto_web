@@ -56,7 +56,7 @@ const UserForm = () => {
             email: user.email,
             avatar: user.avatar,
             location: user.location,
-            description: user.description
+            description: "Add some self description!"
         },
         errors: {
             name: validations.name(user.name),
