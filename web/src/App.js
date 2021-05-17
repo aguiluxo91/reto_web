@@ -27,7 +27,7 @@ function App() {
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route path="/activate" component={ActivationAccount} />
-          <PrivateRoute exact path="/telefonos" component={Phones} />
+          <Route exact path="/telefonos" component={Phones} />
           <PrivateRoute exact path="/telefonos/:id" component={Details} />
           <PrivateRoute exact path="/profile/:id" component={Profile} />
           <PrivateRoute exact path="/cart" component={Cart} />
