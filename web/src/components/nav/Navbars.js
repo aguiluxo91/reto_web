@@ -104,6 +104,7 @@ const Navbars = () => {
 
               {isAuthenticated() &&
                 <Nav className="navbar-nav-hover align-items-lg-center ml-lg-auto" navbar>
+                  <NavLink href="/telefonos">Products</NavLink>
                   <NavLink href={`/profile/${user.id}`}>
                     <img src={user.avatar} alt={user.name} className="img-fluid rounded-circle shadow mr-3" style={{ width: "35px" }} />
                     <span className="nav-link-inner--text">{user?.email}</span>
