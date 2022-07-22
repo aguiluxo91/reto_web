@@ -70,7 +70,7 @@ const Footer = () => {
                             </Col>
                                 <NavItem>
                                 <NavLink
-                                    href="https:/alejandropuerta.netlify.app"
+                                    href="https://alejandropuerta.netlify.app"
                                     target="_blank">
                                     My Portfolio
                                 </NavLink>
