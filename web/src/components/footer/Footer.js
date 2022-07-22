@@ -66,40 +66,13 @@ const Footer = () => {
                                 <UncontrolledTooltip delay={0} target="tooltip495507257">
                                     My Github
                                 </UncontrolledTooltip>
-                                <Button
-                                    className="btn-icon-only rounded-circle"
-                                    color="twitter"
-                                    href="https://twitter.com/DelAguila91"
-                                    id="tooltip475038074"
-                                    target="_blank"
-                                >
-                                    <span className="btn-inner--icon">
-                                        <i className="fa fa-twitter" />
-                                    </span>
-                                </Button>
-                                <UncontrolledTooltip delay={0} target="tooltip475038074">
-                                    Follow me
-                                </UncontrolledTooltip>
-                                <Button
-                                    className="btn-icon-only rounded-circle ml-1"
-                                    color="facebook"
-                                    href="https://www.facebook.com/alejandro.puertadelaguila"
-                                    id="tooltip837440414"
-                                    target="_blank"
-                                >
-                                    <span className="btn-inner--icon">
-                                        <i className="fa fa-facebook-square" />
-                                    </span>
-                                </Button>
-                                <UncontrolledTooltip delay={0} target="tooltip837440414">
-                                    Like me
-                                </UncontrolledTooltip>
+    
                             </Col>
                                 <NavItem>
                                 <NavLink
-                                    href="#"
+                                    href="https:/alejandropuerta.netlify.app"
                                     target="_blank">
-                                    About Us
+                                    My Portfolio
                                 </NavLink>
                             </NavItem>
                         </Nav>
