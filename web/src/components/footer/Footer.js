@@ -41,7 +41,7 @@ const Footer = () => {
                             <Button
                                     className="btn-icon-only rounded-circle ml-1"
                                     color="facebook"
-                                    href="https://www.linkedin.com/in/alejandro-puerta-17b404201"
+                                    href="https://www.linkedin.com/in/alejandro-puerta-del-%C3%A1guila-17b404201/"
                                     id="tooltip499507257"
                                     target="_blank"
                                 >
